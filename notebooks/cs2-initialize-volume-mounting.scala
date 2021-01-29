@@ -32,7 +32,7 @@ if(isExist) {
 }
 else {
   dbutils.fs.mount(
-    source = "abfss://casestudydata@iomegadls.dfs.core.windows.net/",
+    source = "abfss://casestudydata@dlkdata2.dfs.core.windows.net/",
     mountPoint = "/mnt/data",
     extraConfigs = configs)
 }
